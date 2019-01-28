@@ -57,7 +57,7 @@ class Login extends React.Component {
     this.translationHelper.addTranslationsForActiveLanguage(this.props,'auth');
     return (
       <Card className={classes[this.state.cardAnimaton]}>
-        <form className={classes.form}>
+        <form className={classes.form}>          
           <CardHeader color="primary" className={classes.cardHeader}>
             <h4><Translate id="login.title" >Login</Translate></h4>
           </CardHeader>

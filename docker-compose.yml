@@ -3,7 +3,7 @@ version: '3.5'
 services:
 
   digi-app:
-    container_name: arget
+    container_name: digi-app-react
     build:
       context: .
       dockerfile: Dockerfile
