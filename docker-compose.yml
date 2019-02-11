@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
 
-  digi-app:
+  clientapp_digi-app:
     container_name: digi-app-react
     build:
       context: .
