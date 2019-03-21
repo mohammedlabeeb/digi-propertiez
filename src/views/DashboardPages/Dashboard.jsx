@@ -6,6 +6,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import DashboardHeader from "./Sections/DashboardHeader";
+import Drawer from "@material-ui/core/Drawer";
 import { TranslationHelper } from "../../helpers/translation";
 
 class Dashboard extends React.Component {
@@ -34,11 +35,7 @@ class Dashboard extends React.Component {
       <div className={classes.authOuter}>
         <DashboardHeader/>
         <GridContainer>
-              <GridItem xs={12} sm={4} md={2}>
-                
-                Left Bar
-              </GridItem>
-              <GridItem xs={12} sm={8} md={10}>
+              <GridItem xs={12}>
                 
                 right Conenes
               </GridItem>

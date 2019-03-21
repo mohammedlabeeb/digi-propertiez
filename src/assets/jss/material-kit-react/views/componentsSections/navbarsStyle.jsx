@@ -6,7 +6,6 @@ const navbarsStyle = theme => ({
     padding: "70px 0",
     paddingTop: "0"
   },
-  container,
   title: {
     ...title,
     marginTop: "30px",

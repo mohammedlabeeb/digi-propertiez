@@ -40,7 +40,7 @@ const headerStyle = {
     zIndex: "1100"
   },
   container: {
-    ...container,
+    
     minHeight: "50px",
     flex: "1",
     alignItems: "center",
